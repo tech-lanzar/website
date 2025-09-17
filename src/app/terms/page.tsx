@@ -38,7 +38,7 @@ export default function TermsOfServicePage() {
           Acceptance of Terms
         </Typography>
         <Typography className="mb-4">
-          Welcome to Lanzar Private Limited (&quot;Company,&quot; &quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). These Terms of Service (&quot;Terms&quot;) govern your use of our Employer of Record (EOR) services, website, and related services (collectively, the &quot;Services&quot;).
+          Welcome to Lanzar (&quot;Company,&quot; &quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). These Terms of Service (&quot;Terms&quot;) govern your use of our Employer of Record (EOR) services, website, and related services (collectively, the &quot;Services&quot;).
         </Typography>
         <Typography className="mb-4">
           These Terms apply to both clients who engage our EOR services and employees who are managed under our EOR arrangements. By accessing or using our Services, you agree to be bound by these Terms.

@@ -12,7 +12,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "analyze": "ANALYZE=true npm run build",
-    "test": "jest"
+    "test": "jest",
+    "clean": "node -e \"const {execSync}=require('node:child_process');const rm=p=>{try{execSync('rm -rf '+p,{stdio:'ignore'})}catch{}};['node_modules','.next','out','dist','.turbo','.cache','.eslintcache','coverage'].forEach(rm);console.log('Cleaned build artifacts and caches.')\""
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.1",

@@ -1,7 +1,7 @@
 import type { Company } from "@/types/company";
 
 export const company: Company = {
-  name: "Lanzar Private Limited",
+  name: "Lanzar",
   tagline: "Your Gateway to India's Top Talent",
   description: "Lanzar is an Employer of Record (EOR) service provider in India, designed to support US and European companies that wish to hire talent in India without setting up their own legal entity. By acting as the legal employer, we ensure full compliance with Indian labor laws while you retain complete control over day-to-day work and performance management.",
   founded: new Date("2024-11-29"),
@@ -9,7 +9,7 @@ export const company: Company = {
   cin: "U62011KA2024PTC195460",
   email: "contact@lanzar.in",
   headquarters: {
-    street: "Block B, G4, Aparna Maple, Kanarayanapura Main Road, R K Hegde Nagar",
+    street: "Vikpalla Software Private Limited, Corporate Membership No 031, WeWork Manyata Mahogany, Embassy Manyata Business Park, F2 Block-Mahogany Outer Ring Road, Nagavara",
     city: "Bangalore",
     state: "Karnataka",
     country: "India",
@@ -76,11 +76,6 @@ export const companyStats = [
     label: "Employees Managed",
     value: "1000+",
     description: "Across India through our EOR services"
-  },
-  {
-    label: "Time to Hire",
-    value: "7 Days",
-    description: "Average onboarding time"
   },
   {
     label: "Compliance Rate",

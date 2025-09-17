@@ -40,7 +40,7 @@ export default function PrivacyPolicyPage() {
           Introduction
         </Typography>
         <Typography className="mb-4">
-          At Lanzar Private Limited (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our Employer of Record (EOR) services, or interact with us as clients or employees under our management.
+          At Lanzar (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our Employer of Record (EOR) services, or interact with us as clients or employees under our management.
         </Typography>
         <Typography className="mb-4">
           As an EOR service provider, we handle sensitive employee data on behalf of our clients and are committed to maintaining the highest standards of data protection and privacy. This policy covers both client data and employee data processed through our EOR services.

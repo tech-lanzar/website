@@ -51,18 +51,17 @@ const Logo = forwardRef<HTMLDivElement, LogoProps>(
             (variant === "wordmark" ? wordmarkSizeVariants : sizeVariants)[size].container
           )}
           initial={{ rotate: 0, scale: 1 }}
-          animate={animated ? { rotate: [0, 5, -5, 0] } : { rotate: 0 }}
-          whileHover={{ rotate: 360, scale: 1.05 }}
+          animate={animated && variant !== "wordmark" ? { rotate: [0, 5, -5, 0] } : { rotate: 0 }}
+          whileHover={variant !== "wordmark" && animated ? { rotate: 360, scale: 1.05 } : {}}
           transition={{
-            duration: animated ? 4 : 0.6,
-            repeat: animated ? Infinity : 0,
+            duration: animated && variant !== "wordmark" ? 4 : 0.6,
+            repeat: animated && variant !== "wordmark" ? Infinity : 0,
             ease: "easeInOut"
           }}
         >
-          {/* Use provided emblem image for short logo */}
           <Image
             src={variant === "emblem" ? LOGO_SHORT_SRC : LOGO_LONG_SRC}
-            alt="Vikpalla logo"
+            alt="Lanzar logo"
             fill
             className={cn("object-contain")}
             sizes={variant === "wordmark" ? "(max-width: 768px) 120px, 160px" : "(max-width: 768px) 40px, 64px"}
@@ -77,7 +76,7 @@ const Logo = forwardRef<HTMLDivElement, LogoProps>(
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            Vikpalla
+            Lanzar
           </motion.span>
         )}
       </motion.div>

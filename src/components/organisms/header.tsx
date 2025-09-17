@@ -86,8 +86,9 @@ export function Header({ className }: HeaderProps) {
               transition={{ duration: 0.3, delay: 0.1 }}
             >
               <Logo
-                size="md"
+                size="xl"
                 showText={false}
+                animated={false}
                 variant="emblem"
                 onClick={() => window.location.href = "/"}
                 className="hover:opacity-80 transition-opacity duration-200"

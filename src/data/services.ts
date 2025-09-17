@@ -33,7 +33,7 @@ export const services: Service[] = [
     coverage: ["All Indian States", "Union Territories"],
     pricing: {
       type: "per_employee",
-      startingPrice: "₹5,000",
+      startingPrice: "$80",
       billingCycle: "monthly"
     },
     images: [
@@ -76,7 +76,7 @@ export const services: Service[] = [
     coverage: ["Pan India", "All States & UTs"],
     pricing: {
       type: "per_employee",
-      startingPrice: "₹2,500",
+      startingPrice: "$30",
       billingCycle: "monthly"
     },
     images: [
@@ -119,7 +119,7 @@ export const services: Service[] = [
     coverage: ["Central Laws", "State Regulations", "Local Compliance"],
     pricing: {
       type: "per_employee",
-      startingPrice: "₹1,500",
+      startingPrice: "$18",
       billingCycle: "monthly"
     },
     images: [
@@ -162,7 +162,7 @@ export const services: Service[] = [
     coverage: ["Insurance Partners", "EPF Organization", "Gratuity Trust"],
     pricing: {
       type: "per_employee",
-      startingPrice: "₹3,000",
+      startingPrice: "$36",
       billingCycle: "monthly"
     },
     images: [
@@ -205,7 +205,7 @@ export const services: Service[] = [
     coverage: ["Remote HR Support", "On-site Consultations", "Training Programs"],
     pricing: {
       type: "per_employee",
-      startingPrice: "₹2,000",
+      startingPrice: "$24",
       billingCycle: "monthly"
     },
     images: [
@@ -248,7 +248,7 @@ export const services: Service[] = [
     coverage: ["Employment Disputes", "Labor Court", "Legal Consultation"],
     pricing: {
       type: "per_employee",
-      startingPrice: "₹1,000",
+      startingPrice: "$12",
       billingCycle: "monthly"
     },
     images: [

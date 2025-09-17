@@ -96,7 +96,7 @@ const ServiceCard = forwardRef<HTMLDivElement, ServiceCardProps>(
           </CardHeader>
 
           <CardContent className={cn("flex-1", variant === "compact" ? "px-4 pb-4" : "px-6 pb-6")}>
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
               {service.description}
             </p>
 

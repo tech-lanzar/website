@@ -6,7 +6,7 @@ import { Typography } from "@/components/atoms/typography";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle, ArrowRight, MapPin, IndianRupee } from "lucide-react";
+import { CheckCircle, ArrowRight, MapPin, DollarSign } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Image from "next/image";
@@ -86,7 +86,7 @@ export default function ServiceDetailPage({ params }: ServicePageProps) {
               
               {/* Pricing */}
               <div className="flex items-center gap-4 mb-8 p-4 bg-muted/30 rounded-lg">
-                <IndianRupee className="h-5 w-5 text-primary" />
+                <DollarSign className="h-5 w-5 text-primary" />
                 <div>
                   <div className="flex items-baseline gap-1">
                     <span className="text-2xl font-bold text-primary">{service.pricing.startingPrice}</span>

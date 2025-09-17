@@ -120,7 +120,7 @@ const HeroSection = forwardRef<HTMLElement, HeroSectionProps>(
               transition={{ duration: 0.6, delay: 0.2 }}
               className="flex justify-center"
             >
-              <Logo size="xxxl" animated={true} showText={false} variant="emblem" />
+              <Logo size="xxxl" animated={false} showText={false} variant="wordmark" />
             </motion.div>
 
             {/* Main Headline */}
@@ -130,12 +130,12 @@ const HeroSection = forwardRef<HTMLElement, HeroSectionProps>(
               transition={{ duration: 0.8, delay: 0.4 }}
               className="space-y-4"
             >
-              <Typography
+              {/* <Typography
                 variant="h1"
                 className="text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-orange-500 via-purple-500 to-blue-500 bg-clip-text text-transparent"
               >
                 Lanzar
-              </Typography>
+              </Typography> */}
               <Typography
                 variant="lead"
                 className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto"

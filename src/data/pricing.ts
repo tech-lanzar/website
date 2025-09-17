@@ -23,8 +23,8 @@ export const eorServicePricing: ServicePricing[] = [
       {
         id: "employment-standard",
         name: "Standard Employment",
-        amount: 5000,
-        currency: "INR",
+        amount: 80,
+        currency: "USD",
         period: "month",
         unit: "employee",
         description: "Complete employment management for your Indian workforce",
@@ -46,8 +46,8 @@ export const eorServicePricing: ServicePricing[] = [
       {
         id: "payroll-standard",
         name: "Payroll Management",
-        amount: 2500,
-        currency: "INR",
+        amount: 30,
+        currency: "USD",
         period: "month",
         unit: "employee",
         description: "Comprehensive payroll processing and tax management",
@@ -68,8 +68,8 @@ export const eorServicePricing: ServicePricing[] = [
       {
         id: "compliance-standard",
         name: "Legal & Compliance",
-        amount: 1500,
-        currency: "INR",
+        amount: 18,
+        currency: "USD",
         period: "month",
         unit: "employee",
         description: "Full legal compliance and regulatory management",
@@ -90,8 +90,8 @@ export const eorServicePricing: ServicePricing[] = [
       {
         id: "benefits-standard",
         name: "Benefits Administration",
-        amount: 3000,
-        currency: "INR",
+        amount: 36,
+        currency: "USD",
         period: "month",
         unit: "employee",
         description: "Comprehensive employee benefits management",
@@ -112,8 +112,8 @@ export const eorServicePricing: ServicePricing[] = [
       {
         id: "hr-support-standard",
         name: "HR Support Services",
-        amount: 2000,
-        currency: "INR",
+        amount: 24,
+        currency: "USD",
         period: "month",
         unit: "employee",
         description: "Dedicated HR support and employee relations",
@@ -134,8 +134,8 @@ export const eorServicePricing: ServicePricing[] = [
       {
         id: "risk-management-standard",
         name: "Risk Management",
-        amount: 1000,
-        currency: "INR",
+        amount: 12,
+        currency: "USD",
         period: "month",
         unit: "employee",
         description: "Comprehensive risk assessment and mitigation",
@@ -165,7 +165,7 @@ export const getPrimaryPricing = (serviceId: string): PricingTier | undefined =>
 
 // Helper function to format pricing
 export const formatPricing = (pricing: PricingTier): string => {
-  const currencySymbol = pricing.currency === "INR" ? "₹" : pricing.currency === "USD" ? "$" : "€";
+  const currencySymbol = pricing.currency === "USD" ? "$" : pricing.currency === "EUR" ? "€" : "₹";
   const amount = pricing.amount.toLocaleString();
   return `${currencySymbol}${amount}/${pricing.period}/${pricing.unit}`;
 };
@@ -175,7 +175,7 @@ export const enterprisePricing: PricingTier = {
   id: "enterprise",
   name: "Enterprise",
   amount: 0,
-  currency: "INR",
+  currency: "USD",
   period: "month",
   unit: "service",
   description: "Custom solutions for large organizations",

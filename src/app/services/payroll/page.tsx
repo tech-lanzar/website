@@ -6,7 +6,7 @@ import { Typography } from "@/components/atoms/typography";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle, Calculator, FileCheck, IndianRupee, Shield } from "lucide-react";
+import { CheckCircle, Calculator, FileCheck, DollarSign, Shield } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -42,7 +42,7 @@ export default function PayrollServicesPage() {
     {
       title: "Gratuity Management",
       description: "Gratuity calculations and fund management as per Indian law",
-      icon: IndianRupee
+      icon: DollarSign
     }
   ];
 
